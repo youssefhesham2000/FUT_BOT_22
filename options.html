@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    <div id="pass" class="container-fluid" >
+      <p>Account Password</p>
+      <input type="text" id="Password">
+      </div>
+    <!--<div  class="container-fluid" >
+      <p>write tournment as it is written in the app</p>
+      <input type="text" id="Tournment">
+    </div>-->
+<label for="quality">Choose quality</label>
+<select name="quality" id="quality">
+  <option value="Bronze">Bronze</option>
+  <option value="Silver">Silver</option>
+  <option value="Gold">Gold</option>
+  <option value="Special">special</option>
+</select>
+<label for="rarity">Choose Rarity</label>
+<select name="rarity" id="rarity">
+  <option value="Common">common</option>
+  <option value="Rare">Rare</option>
+</select>
+<!--
+
+
+<label for="position">Choose position</label>
+<select name="position" id="position">
+  <option value="Any">Any</option>
+  <option value="Defender">Defender</option>
+  <option value="MidField">MidField</option>
+  <option value="attack">attack</option>
+  <option value="GK">GK</option>
+  <option value="RWB">RWB</option>
+  <option value="RB">RB</option>
+  <option value="CB">CB</option>
+  <option value="LB">LB</option>
+  <option value="LWB">LWB</option>
+  <option value="CDM">CDM</option>
+  <option value="RM">RM</option>
+  <option value="CM">CM</option>
+  <option value="LM">LM</option>
+  <option value="CAM">CAM</option>
+  <option value="RF">RF</option>
+  <option value="CF">CF</option>
+  <option value="LF">LF</option>
+  <option value="RW">RW</option>
+  <option value="ST">ST</option>
+  <option value="LW">LW</option>
+
+</select>
+-->
+    <div id="BidbuyPrice" class="container-fluid" >
+      <p>Bid Buying price</p>
+     <!--
+     <p>From</p>
+      <input type="text" id="BidFromPrice">
+       -->
+      <p>To</p>
+      <input type="text" id="BidToPrice">
+    </div>
+  <!--
+
+      <div id="ByNowBuyPrice" class="container-fluid" >
+      <p>By Now Buying price</p>
+      <p>From</p>
+      <input type="text" id="ByNowFromPrice">
+      <p>To</p>
+      <input type="text" id="ByNowToPrice">
+    </div>
+    -->
+    <div id="SellPrice" class="container-fluid" >
+      <p>Bid sell price</p>
+      <p>From</p>
+      <input type="text" id="BidSellPrice">
+    </div>
+    <div id="ByNowPrice" class="container-fluid" >
+      <p>By Now sell price</p>
+      <p>From</p>
+      <input type="text" id="ByNowSellPrice">
+    </div>
+   <!--
+
+    <div id="Time" class="container-fluid" >
+      <p>Duration</p>
+      <input type="text" id="Duration">  
+    </div>
+    -->
+    <button type="button" class="btn btn-success" id="updateSellBuy">update sell and buy prices and duration Data</button>
+    <div id="sendingTextAttributes" class="container-fluid" >
+      <p>max lost cards in bit </p>
+      <input type="text" id="MaxLostBIts">
+      <p>max un sold cards in transfare list </p>
+      <input type="text" id="MaxUnsold">
+    </div>
+    <div  class="container-fluid" >
+      <p>maximum cards per day</p>
+      <input type="text" id="MaxPerDay">
+    </div>
+      <button type="button" class="btn btn-success" id="updateMaxData">update max cards data </button>
+      <button type="button" class="btn btn-success" id="updateData">save all Data</button>
+    </div>
+  </body>
+  <script src="options.js"></script>
+</html>
