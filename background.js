@@ -1,6 +1,6 @@
 var open=true;
-var botEmail="FUTBOTBY_Youssef_hesham_akl@yahoo.com"
-var botpass="Pass_1234"
+var botEmail="EMAIL"
+var botpass="pass"
 chrome.runtime.onMessage.addListener(function(response, sender, sendResponse) {  
   if(response.Action.localeCompare("setState")==0){
     console.log("change state");
